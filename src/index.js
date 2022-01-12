@@ -8,9 +8,13 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 
 import '@fortawesome/fontawesome-free/js/all.min';
 
-$(function() {
+$(document).ready(function() {
     
         $('[data-toggle="tooltip"]').tooltip();
+
+        $('.add-to-cart-btn').click(function(){
+                alert('اضيف المنتج الى عربة الشراء');
+        });
      
 });
 
