@@ -462,8 +462,34 @@ input[type=email] {
     margin-left: 5px;
     margin-right: 5px;
 }
+/************************************
+******************
+Product Page
+******************
+************************************/
+.custom-breadcrumb{
+    background-color: transparent;
+    padding: 25px 0;
+}
+.custom-breadcrumb a{
+    color: #555555;
+    text-decoration: none;
+}
+.custom-breadcrumb a:hover{
+    color: red;
 
-
+}
+.custom-breadcrumb>li+li:before {
+    content: ">";
+    color: #555555;
+    padding: 0 5px;
+}
+.custom-breadcrumb>li:last-of-type{
+    color: #bfcde1;
+}
+/***********************************
+MEDIA QUERY
+************************************/
 @media (max-width: 1199px) {
     .custom-navbar .navbar-nav li a.nav-link{
         padding: 8px;
